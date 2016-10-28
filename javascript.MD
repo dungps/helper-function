@@ -6,6 +6,11 @@
 ## add_query_args
 Retrieves a modified URL query string.
 ```javascript
+/**
+ * @param object args
+ * @param string uri
+ * @return string
+ */
 function add_query_args( args, uri ) {
    args = args || {};
    uri = uri || location.href;
