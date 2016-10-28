@@ -15,7 +15,7 @@ function add_query_args( args, uri ) {
       if (uri.match(pattern)) {
          return uri.replace(re, '$1' + key + '=' + args[key] + '$2' );
       } else {
-        return uri + fiestSeperator + key + '=' + args[key];
+         return uri + fiestSeperator + key + '=' + args[key];
       }
    }
 }
