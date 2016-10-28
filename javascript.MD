@@ -4,6 +4,7 @@
 [Back](https://github.com/oryc9x/helper-function)
 
 ## add_query_args
+Retrieves a modified URL query string.
 ```javascript
 function add_query_args( args, uri ) {
    args = args || {};
