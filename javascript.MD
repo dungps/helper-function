@@ -1,6 +1,7 @@
 # Javascript Helper Functions
 1. [add_query_args](#add_query_args)
 
+[Back](https://github.com/oryc9x/helper-function/blob/master/README.md)
 
 ## add_query_args
 ```javascript
