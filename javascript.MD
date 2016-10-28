@@ -13,7 +13,7 @@ function add_query_args( args, uri ) {
    for(var key in args) {
       var pattern = new RegExp( '([?&])' + key + '=.*?(&|$)', 'i' );
       if (uri.match(pattern)) {
-         return uri.replace(re, '$1' + key + '=' + args[key] + '$2' );
+         return uri.replace(pattern, '$1' + key + '=' + args[key] + '$2' );
       } else {
          return uri + fiestSeperator + key + '=' + args[key];
       }
